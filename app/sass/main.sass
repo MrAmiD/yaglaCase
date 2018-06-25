@@ -1,0 +1,499 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+body
+	opacity: 1
+
+*
+	outline: none!important
+
+@-webkit-keyframes fadeEffect
+	0%
+		opacity: 0
+	50%
+		opacity: 0
+	100%
+		opacity: 1
+
+@keyframes bgMove
+	0%
+		background-position: 0px
+	50%
+		background-position: 15px
+	100%
+		background-position: 0px
+
+@keyframes fade-translate
+	0%
+		transform: translate3d(0px, -50px, 0px)
+		opacity: 0
+	50%
+		transform: translate3d(0px, -50px, 0px)
+		opacity: 0
+	100%
+		transform: translate3d(0px, 0px, 0px)
+		opacity: 1
+@keyframes fade-translateBottom
+	0%
+		transform: translate3d(0px, 50px, 0px)
+		opacity: 0
+	50%
+		transform: translate3d(0px, 50px, 0px)
+		opacity: 0
+	100%
+		transform: translate3d(0px, 0px, 0px)
+		opacity: 1
+@keyframes fade-translateLeft
+	0%
+		transform: translate3d(-50px, -50%, 0px)
+		opacity: 0
+	50%
+		transform: translate3d(-50px, -50%, 0px)
+		opacity: 0
+	100%
+		transform: translate3d(0px, -50%, 0px)
+		opacity: 1
+@keyframes fade-translateRight
+	0%
+		transform: translate3d(50px, -50%, 0px)
+		opacity: 0
+	50%
+		transform: translate3d(50px, -50%, 0px)
+		opacity: 0
+	100%
+		transform: translate3d(0px, -50%, 0px)
+		opacity: 1
+@keyframes ani-mouse
+	0%
+		opacity: 1
+		top: 29%
+	15%
+		opacity: 1
+		top: 50%
+	50%
+		opacity: 0
+		top: 50%
+
+	100%
+		opacity: 0
+		top: 29%
+
+//project start
+
+.promMain
+	height: 830px
+	background-position: center bottom
+	h1
+		padding: 155px 0 15px
+		color: #ffc113
+		font-size: 41px
+		font-weight: 700
+		text-align: center
+		text-transform: uppercase
+	h2
+		color: #ffe09a
+		font-size: 18px
+		text-align: center
+	.btn-c
+		display: flex
+		justify-content: center
+	.discr
+		font-size: 16px
+		font-family: PTSans
+		font-style: italic
+		text-align: center
+		color: #e9edf0
+		margin-top: 57px
+		margin-bottom: 41px
+	.calc-price
+		margin-top: 42px
+
+.calc-price
+	text-align: center
+
+.form-c
+	display: flex
+	align-items: center
+	justify-content: center
+
+	input
+		background: transparent
+		border: solid 1px #b7b7b7
+		width: 225.5px
+		height: 37px
+		padding-left: 12px
+		color: #FFFFFF
+		margin-right: 10px
+		&:last-child
+			margin-right: 0px
+		&::-webkit-input-placeholder
+			color: #FFFFFF
+		&:-moz-placeholder
+			color: #FFFFFF
+		&::-moz-placeholder
+			color: #FFFFFF
+
+.h3
+	color: #0c1d38
+	font-weight: 700
+	text-align: center
+	font-size: 30px
+	text-transform: uppercase
+
+.promProofs
+	background: #e9edf0
+	position: relative
+	padding-top: 82px
+	padding-bottom: 52px
+	.h3
+		margin-bottom: 25px
+		font-size: 30px
+	.money-c
+		position: absolute
+		left: 50%
+		top: 0px
+		transform: translate(-50%, -50%)
+	.h2
+		font-size: 18px
+		color: #0c1d38
+		font-weight: bold
+		text-transform: uppercase
+		margin-top: 19px
+
+.solid-txt
+	padding-bottom: 20px
+	position: relative
+	text-align: center
+	&:after
+		content: ''
+		position: absolute
+		bottom: 0px
+		width: 39px
+		height: 2px
+		background-color: #ff0000
+		left: 50%
+		transform: translate(-50%, 0)
+
+.proofs-c
+	display: flex
+	justify-content: space-between
+	.proofs-i
+		width: 33%
+		display: flex
+		flex-direction: column
+		align-items: center
+		margin-right: 50px
+		.h2
+			white-space: nowrap
+		&:last-child
+			margin-right: 0px
+		.red-ul
+			margin-top: 21px
+
+.red-ul
+	list-style: none
+	padding-left: 15px
+	max-width: 100%
+	li
+		color: #0c1d38
+		font-size: 14px
+		position: relative
+		line-height: 1.2
+		&:after
+			content: ''
+			position: absolute
+			left: -15px
+			top: 8px
+			width: 6px
+			height: 6px
+			background: #ff0000
+
+.promStart
+	background-position: top center
+	background-color: #e9edf0
+	padding-top: 128px
+	background-repeat: no-repeat
+	padding-bottom: 76px
+	.img-c
+		text-align: center
+	h3
+		color: #ffc113
+		font-size: 30px
+		font-weight: 900
+		text-transform: uppercase
+		text-align: center
+		margin-top: 22px
+
+.photo-c
+	min-width: 149px
+	min-height: 140px
+	background-position: center
+	background-repeat: no-repeat
+	display: flex
+	align-items: center
+	justify-content: center
+	position: relative
+	left: 0px
+	margin-left: -27px
+	.prev
+		width: 94px
+		height: 94px
+		background-position: center
+
+.h4
+	font-size: 19px
+	color: #ffc113
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
+
+.photo-txt
+	display: flex
+	p
+		color: #FFFFFF
+		line-height: 1.71
+		margin-top: 40px
+		margin-left: 10px
+	strong
+		color: #ffc113
+		font-size: 18px
+		line-height: 1
+.start-step
+	display: flex
+	justify-content: space-around
+	border-top: solid 1px #e8edf0
+	border-bottom: solid 1px #e8edf0
+	padding: 15px 0px
+	margin-top: 40px
+	margin-bottom: 50px
+	.step-i
+		display: flex
+		align-items: center
+		.txt
+			color: #FFFFFF
+			font-size: 18px
+			margin-left: 10px
+		.nums
+			min-width: 28px
+			min-height: 28px
+			width: 28px
+			height: 28px
+			background: #ffc113
+			border-radius: 100px
+			display: flex
+			align-items: center
+			justify-content: center
+			font-size: 18px
+			color: #1b3355
+			font-weight: 700
+
+.svg-c
+	display: flex
+	align-items: center
+	justify-content: center
+
+.left-ico-c
+	display: flex
+	align-items: center
+	justify-content: space-between
+	margin-top: 34px
+	.left-ico-i
+		display: flex
+		align-items: center
+		.svg-c
+			padding-right: 10px
+	.txt
+		border-left: solid 2px #ffc113
+		font-size: 13px
+		color: #FFFFFF
+		font-weight: 700
+		text-transform: uppercase
+		padding-left: 10px
+
+.redBg-c
+	position: relative
+	.redBg-txt
+		color: #FFFFFF
+		font-weight: 700
+		font-size: 18px
+		text-align: center
+		padding: 37px 105px
+		margin-top: 45px
+		position: relative
+		z-index: 3
+		background-image: linear-gradient(#d52932, #d52932), linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0))
+		box-shadow: 0px 5px 0 0 #7c0c0c
+		position: relative
+	.lenta-bg
+		position: absolute
+		width: 100%
+		height: 100%
+		top: 0px
+		z-index: 2
+		&:before
+			content: ''
+			position: absolute
+			transform: translate(-50%, 0)
+			background-image: url("../img/leftLenta.png")
+			left: 0px
+			top: 15px
+			width: 76px
+			height: 115px
+		&:after
+			content: ''
+			position: absolute
+			transform: translate(50%, 0)
+			background-image: url("../img/rightLenta.png")
+			right: 0px
+			top: 15px
+			width: 76px
+			height: 115px
+.promAudit
+	padding-top: 80px
+	position: relative
+	background-color: #e7ebee
+	.btn-c
+		display: flex
+		justify-content: center
+	.calc-price
+		width: auto
+		display: inline-block
+		padding-right: 15px
+		padding-left: 15px
+	.red-ul
+		border-bottom: solid 1px #616876
+		padding-bottom: 15px
+		padding-left: 38px
+.promAudit1
+	padding-bottom: 90px
+.promAudit2
+	background: #FFFFFF
+	padding: 65px 0px
+.border-tr
+	border-color: transparent!important
+
+
+.promAudit1
+	position: relative
+	z-index: 1
+.bg-Audit
+	position: absolute
+	top: 0px
+	height: 100%
+	width: 100%
+	pointer-events: none
+	background-repeat: no-repeat
+.tringle-txt
+	background: #ffc113
+	min-width: 765px
+	font-size: 18px
+	font-weight: 900
+	color: #1a1a1a
+	text-align: center
+	padding: 10px 25px
+	margin-top: 17px
+	position: relative
+	display: inline-block
+	left: 50%
+	transform: translate(-50%, 0)
+	margin-bottom: 18px
+	&:after
+		content: ''
+		position: absolute
+		bottom: -19px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 19px 12px 0 12px
+		border-color: #ffc013 transparent transparent transparent
+		left: 50%
+		transform: translate(-50%, 0)
+	&.grey-bg
+		background: #e7ebee
+		&:after
+			border-color: #e7ebee transparent transparent transparent
+
+.content-t
+	z-index: 1
+	position: relative
+	.h3
+		font-size: 18px
+		color: #0c1d38
+		text-align: left
+		margin-bottom: 27px
+		margin-top: 27px
+	p
+		font-size: 18px
+		margin-bottom: 25px
+		color: #0c1d38
+	ul
+		li
+			font-size: 18px
+
+.promMore
+	padding: 62px 0px
+	padding-bottom: 100px
+	.img-c
+		display: flex
+		justify-content: center
+		margin-bottom: 29px
+	hr
+		border-color: #FFFFFF
+		border: none
+		border-bottom: solid 1px #FFFFFF
+		margin: 72px 0px
+.content-w
+	.h3
+		color: #ffc113
+		margin-bottom: 56px
+	.opt-txt
+		display: flex
+		flex-direction: column
+		justify-content: center
+		text-align: center
+		margin-bottom: 37px
+		.h4
+			font-size: 22px
+			color: #ffc113
+			margin-top: 5px
+		b
+			color: #FFFFFF
+			font-size: 16px
+			text-transform: uppercase
+	p
+		color: #efefef
+		font-size: 18px
+
+.fs-b
+	display: flex
+	align-items: center
+	justify-content: center
+	.fs-i
+		display: flex
+		align-items: center
+		&:first-child
+			margin-right: 32px
+			.txt
+				padding-right: 32px
+				border-right: solid 1px rgba(#ffffff, 0.43)
+	.svg-c
+		display: flex
+		align-items: center
+		justify-content: center
+	.txt
+		font-size: 16px
+		color: #fabd14
+		text-transform: uppercase
+		font-weight: 700
+		margin-left: 18px
+		height: 45px
+		display: flex
+		align-items: center
+
+
+
+//project end
+
+
+@import "media" // Всегда в конце
