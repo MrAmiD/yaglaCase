@@ -81,33 +81,7 @@ body
 
 //project start
 
-.promMain
-	height: 830px
-	background-position: center bottom
-	h1
-		padding: 155px 0 15px
-		color: #ffc113
-		font-size: 41px
-		font-weight: 700
-		text-align: center
-		text-transform: uppercase
-	h2
-		color: #ffe09a
-		font-size: 18px
-		text-align: center
-	.btn-c
-		display: flex
-		justify-content: center
-	.discr
-		font-size: 16px
-		font-family: PTSans
-		font-style: italic
-		text-align: center
-		color: #e9edf0
-		margin-top: 57px
-		margin-bottom: 41px
-	.calc-price
-		margin-top: 42px
+
 
 .calc-price
 	text-align: center
@@ -190,11 +164,18 @@ body
 			margin-right: 0px
 		.red-ul
 			margin-top: 21px
-
 .red-ul
 	list-style: none
 	padding-left: 15px
 	max-width: 100%
+	&.yel-t
+		padding-left: 40px
+		li
+			margin-bottom: 20px
+			&:after
+				background: #ffc113
+				top: 5px
+				left: -34px
 	li
 		color: #0c1d38
 		font-size: 14px
@@ -207,24 +188,7 @@ body
 			top: 8px
 			width: 6px
 			height: 6px
-			background: #ff0000
-
-.promStart
-	background-position: top center
-	background-color: #e9edf0
-	padding-top: 128px
-	background-repeat: no-repeat
-	padding-bottom: 76px
-	.img-c
-		text-align: center
-	h3
-		color: #ffc113
-		font-size: 30px
-		font-weight: 900
-		text-transform: uppercase
-		text-align: center
-		margin-top: 22px
-
+			background: #ff0000 
 .photo-c
 	min-width: 149px
 	min-height: 140px
@@ -431,18 +395,7 @@ body
 		li
 			font-size: 18px
 
-.promMore
-	padding: 62px 0px
-	padding-bottom: 100px
-	.img-c
-		display: flex
-		justify-content: center
-		margin-bottom: 29px
-	hr
-		border-color: #FFFFFF
-		border: none
-		border-bottom: solid 1px #FFFFFF
-		margin: 72px 0px
+
 .content-w
 	.h3
 		color: #ffc113
@@ -490,8 +443,428 @@ body
 		height: 45px
 		display: flex
 		align-items: center
+//yagla start
 
 
+.yagla-c
+	display: flex
+	align-items: center
+	justify-content: center
+.promYagla
+	height: 830px
+	background-position: center bottom
+	.photo-txt
+		p
+			font-size: 17px
+			line-height: 24px
+			margin-top: 0px
+	.h1
+		font-size: 32px
+		color: $accent
+		font-weight: 700
+		text-align: center
+		margin-bottom: 48px
+		line-height: 1.44
+	.yagla-c
+		padding-top: 42px
+		padding-bottom: 29px
+
+.ps-txt
+	color: $accent
+	font-size: 11px
+.white-block
+	text-align: center
+	padding: 92px 68px
+	border-radius: 4px
+	margin-top: 53px
+	background-color: #e8edf0
+	box-shadow: 0.2px 2px 79px 0 rgba(0, 0, 0, 0.11)
+	position: relative
+	z-index: 2
+	.h2
+		font-size: 24px
+		color: $accent2
+		font-weight: 700
+		text-transform: uppercase
+		margin-bottom: 33px
+	p
+		font-size: 14px
+.h5
+	font-size: 20px
+	font-weight: 700
+	color: $blue
+.source-data-sec
+	background: #e8edf0
+	padding-top: 140px
+	padding-bottom: 70px
+	.red-ul
+		li
+			font-size: 14px
+			margin-bottom: 10px
+			&:after
+				top: 5px
+	.content-b
+		padding-left: 13px
+.diagrams
+	display: flex
+	align-items: flex-start
+	.diag-i
+		display: flex
+		flex-direction: column
+		text-align: center
+		justify-content: space-between
+		height: 100%
+		min-height: 323px
+		i
+			font-size: 18px
+			margin-bottom: 5px
+			display: inline-block
+		.discr
+			display: flex
+			flex-direction: column
+			text-align: center
+			justify-content: center
+
+.outsource-sec
+	background-position: top center
+	background-color: #e9edf0
+	padding-top: 128px
+	background-repeat: no-repeat
+	padding-bottom: 76px
+	padding-bottom: 133px
+	position: relative
+	//&:after
+	//	content: ''
+	//	width: 0
+	//	height: 0
+	//	border-style: solid
+	//	border-width: 33px 103px 0 103px
+	//	border-color: #007bff transparent transparent transparent
+	//	position: absolute
+	//	bottom: -33px
+	//	z-index: 1
+	//	left: 50%
+	//	transform: translate(-50%, 0)
+	//	background-image: url("../img/startBg.png")
+	.img-c
+		text-align: center
+	h3, .h2
+		color: #ffc113
+		font-size: 30px
+		font-weight: 900
+		text-transform: uppercase
+		text-align: center
+		margin-top: 30px
+		margin-bottom: 45px
+	.content-p
+		*
+			color: #FFFFFF
+		p
+			font-size: 16px
+			text-align: center
+			line-height: 1.5
+		strong
+			font-weight: 900
+			color: #ffbb00
+			font-size: 20px
+.tasks-sec
+	padding-top: 102px
+	background-position: center top
+	position: relative
+	margin-top: -33px
+	padding-bottom: 57px
+	background-repeat: no-repeat
+	.h2
+		color: #ffc113
+		font-size: 30px
+		font-weight: 900
+		text-transform: uppercase
+		text-align: center
+		margin-top: 0px
+		margin-bottom: 45px
+
+.num-list
+	padding: 0px
+	margin: 0px
+	.num-b
+		display: flex
+		align-items: center
+		margin-right: 26px
+	.num-t
+		font-size: 23px
+		font-weight: 700
+		color: #ffc600
+		margin-left: 5px
+	li
+		display: flex
+		align-items: center
+		margin-bottom: 20px
+		&:last-child
+			margin-bottom: 0px
+		*
+			color: #FFFFFF
+			line-height: 1.29
+
+.doneYagla-sec
+	padding-top: 75px
+	padding-bottom: 75px
+	i
+		font-size: 14px
+		color: $blue
+		text-align: center
+		display: block
+
+.h2-accent2
+	color: $accent2
+	font-size: 30px
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
+	margin-top: 21px
+	margin-bottom: 17px
+
+.done-list-c
+	.h2-accent2
+		margin-top: 8px
+	.done-list-i
+		display: flex
+		align-items: flex-start
+		padding: 51px 0px
+		border-bottom:  dashed 1px $accent2
+		&.light-t
+			border-color: #ffbb00
+			p
+				color: #e8edf0
+				line-height: 1.5
+				font-size: 16px
+			.h2-accent2
+				color: #ffc113
+			.h5
+				color: #ffc113
+			.content-b
+				a
+					font-size: 20px 
+					font-weight: 900
+					color: #FFFFFF
+					&:hover
+						text-decoration: none
+			.discr
+				i
+					color: #e8edf0
+					text-align: center
+					width: 100%
+					display: block
+		&:last-child
+			border-bottom: none
+			padding-bottom: 0px
+		.side-b
+			width: 50%
+			&:first-child
+				padding-right: 50px
+			&.w-100
+				width: 100%
+			.img-c
+				margin-bottom: 20px
+				img
+					max-width: 100%
+			.h2-accent2
+				text-align: left
+	.discr
+		i
+			color: #0c1d38
+			font-weight: 500
+			margin-bottom: 0px
+	.content-b
+		p
+			font-size: 14px
+		*
+			color: $blue
+	.red-ul
+		padding-left: 25px
+		li
+			margin-bottom: 10px
+			&:after
+				top: 5px
+.txt-check-accent
+	display: flex
+	align-items: center
+	margin-top: 15px
+	.svg-c
+		display: flex
+		align-items: center
+	.txt
+		font-size: 20px
+		color: $accent2
+		margin-left: 5px
+
+.proofmoment-sec
+	padding: 62px 0px
+	padding-bottom: 100px
+	.img-c
+		display: flex
+		justify-content: center
+		margin-bottom: 29px
+.yel-h2
+	color: #ffc113
+	font-size: 30px
+	font-weight: 900
+	text-transform: uppercase
+	text-align: center
+	margin-top: 0
+
+.domonth-sec
+	background-position: center top
+	padding-top: 65px
+	padding-bottom: 117px
+	.img-c
+		display: flex
+		align-items: center
+		justify-content: center
+	.yel-h2
+		margin-top: 26px
+		margin-bottom: 20px
+	p
+		color: #FFFFFF
+	li
+		color: #FFFFFF
+
+.proof-screenshots
+	display: flex
+	margin-top: 45px
+	.item-sh-c
+		flex: 1
+		&:nth-child(2)
+			justify-content: space-between
+			display: flex
+			flex-direction: column
+			.discr-s
+				margin-bottom: 35px
+				i
+					text-align: left
+					display: block
+	.item-sh
+		display: inline-flex
+		align-items: flex-start
+		flex-direction: column
+	.discr-s
+		margin-bottom: 16px
+		font-size: 16px
+		width: 100%
+		text-align: center
+		i
+			color: $accent
+
+.blue-h2
+	color: #ffc113
+	font-size: 30px
+	font-weight: 900
+	text-transform: uppercase
+	text-align: center
+	margin-top: 0
+	color: $blue
+
+.img-c
+	img
+		max-width: 100%
+
+.results-sec
+	background: #e8edf0
+	padding: 90px 0px
+	.img-c
+		display: flex
+		align-items: center
+		justify-content: center
+		margin-bottom: 24px
+	.discr-blue
+		margin-top: 22px
+.discr-blue
+	text-align: center
+	*
+		color: $blue
+.res-c
+	display: flex
+	margin-bottom: 25px
+	.res-i
+		flex: 1
+		.d-flex
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+
+.questint-sec
+	background: $blue
+	padding: 100px 0px
+	.white-center-p
+		margin-top: 40px
+.white-title
+	text-align: center
+	color: #e8edf0
+	text-transform: uppercase
+	font-size: 18px
+	line-height: 2
+	font-weight: 700
+	&.big-title
+		font-size: 38px
+.white-center-p
+	text-align: center
+	color: #f2f2f2
+	font-size: 14px
+	a
+		color: #4ebeff
+
+
+.profit2-sec
+	padding: 100px 0px
+	.btn-c
+		text-align: center
+		display: flex
+		justify-content: center
+		margin-top: 25px
+	.img-c
+		display: flex
+		align-items: center
+		justify-content: center
+		margin-top: 50px
+		margin-bottom: 24px
+	p
+		line-height: 1.5
+
+.arrow-btn
+	position: relative
+	box-shadow: 0px 0px 55px 0 #7c0c0c
+	display: inline-block
+	&:before
+		content: ''
+		position: absolute
+		background-image: url("../img/yelArr.png")
+		background-repeat: no-repeat
+		background-position: center
+		width: 36.4px
+		height: 32.3px
+		left: -61px
+		top: -13px
+
+.red-h2
+	color: #d52730
+	font-size: 30px
+	font-weight: 900
+	text-transform: uppercase
+	text-align: center
+	margin-top: 0
+
+#d11
+	height: 1107px
+	background-position: center bottom
+	padding-top: 0px
+.xt-author
+	color: #FFFFFF
+	text-align: center
+	margin-top: 25px
+	.accent-txt
+		color: $accent
+	a
+		color: #4ebeff
+//yagla end
 
 //project end
 
