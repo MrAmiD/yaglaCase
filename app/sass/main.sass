@@ -1077,9 +1077,11 @@ body
 			line-height: 1.79
 .shySeo-sec
 	min-height: 893px
-	display: flex
-	align-items: center
-	justify-content: center
+	height: 893px
+	.wrap
+		position: relative
+		top: 50%
+		transform: translate(0, -50%)
 	.btn-c
 		margin-top: 36px
 		display: flex
@@ -1240,7 +1242,6 @@ body
 	color: $accent
 	font-weight: 700
 	text-transform: uppercase
-
 .space-row
 	display: flex
 	margin: 0 -8px
@@ -1274,10 +1275,12 @@ body
 			padding: 20px
 			justify-content: space-between
 			min-height: 152px
+			height: 152px
 			.bigTxtAccent
 				font-size: 24px
 				text-transform: none
 				margin-bottom: 0px
+				width: 100%
 			.price-seoa
 				font-size: 16px
 				color: #FFFFFF

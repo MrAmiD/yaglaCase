@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4d3dbb-f277-4185-8481-0ccfe0eb9775" name="Default" comment="готово">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/advokat-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/advokatSitePrev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/arrrLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/arrrRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/blueStarsSecBg21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/seoAudit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/blueGridBg.png" afterPath="$PROJECT_DIR$/app/img/blueGridBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/dashedGrey-bg.png" afterPath="$PROJECT_DIR$/app/img/dashedGrey-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/greyArrowBg.png" afterPath="$PROJECT_DIR$/app/img/greyArrowBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/pageAudit.png" afterPath="$PROJECT_DIR$/app/img/pageAudit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/pageAudit2.png" afterPath="$PROJECT_DIR$/app/img/pageAudit2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/pageAudit3.png" afterPath="$PROJECT_DIR$/app/img/pageAudit3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/spaceBg11.png" afterPath="$PROJECT_DIR$/app/img/spaceBg11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/spaceStarsBg.png" afterPath="$PROJECT_DIR$/app/img/spaceStarsBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sputnikLuna.png" afterPath="$PROJECT_DIR$/app/img/sputnikLuna.png" />
+    <list default="true" id="1d4d3dbb-f277-4185-8481-0ccfe0eb9775" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -131,8 +115,8 @@
           <file leaf-file-name="seoAudit.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/seoAudit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="1058" column="0" selection-start-line="1058" selection-start-column="0" selection-end-line="1058" selection-end-column="0" />
+                <state relative-caret-position="98">
+                  <caret line="1036" column="25" selection-start-line="1036" selection-start-column="25" selection-end-line="1036" selection-end-column="25" />
                   <folding>
                     <element signature="n#style#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -294,11 +278,11 @@
           <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="1310" column="6" selection-start-line="1310" selection-start-column="0" selection-end-line="1426" selection-end-column="18" />
+                <state relative-caret-position="199">
+                  <caret line="1277" column="12" selection-start-line="1277" selection-start-column="12" selection-end-line="1277" selection-end-column="12" />
                   <folding>
-                    <element signature="e#24646#27771#2" expanded="true" />
-                    <element signature="e#27823#31088#2" expanded="true" />
+                    <element signature="e#24703#27828#2" expanded="true" />
+                    <element signature="e#27880#31145#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -349,8 +333,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="mr" />
         <option value="mrAmiD" />
+        <option value="mr" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -377,8 +361,8 @@
         <option value="$PROJECT_DIR$/app/yagla.html" />
         <option value="$PROJECT_DIR$/app/typepage.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/seoAudit.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -630,7 +614,7 @@
       <workItem from="1529896813197" duration="26526000" />
       <workItem from="1529982066423" duration="4653000" />
       <workItem from="1530163541761" duration="19462000" />
-      <workItem from="1530241681563" duration="7470000" />
+      <workItem from="1530241681563" duration="8094000" />
     </task>
     <task id="LOCAL-00001" summary="layouts typeless">
       <created>1507611710743</created>
@@ -765,11 +749,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530193694814</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="готово SeoAudit.html">
+      <created>1530249761668</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1530249761668</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405505000" />
+    <option name="totallyTimeSpent" value="406129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +827,8 @@
     <MESSAGE value="увеличение картинок, добавить класс 'fs-img' для картинок, которые необходимо увеличить" />
     <MESSAGE value="Шабдондля типововой страницы" />
     <MESSAGE value="остался последний блок" />
-    <option name="LAST_COMMIT_MESSAGE" value="остался последний блок" />
+    <MESSAGE value="готово SeoAudit.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="готово SeoAudit.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,8 +842,8 @@
         <state relative-caret-position="4224">
           <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
           <folding>
-            <element signature="e#24646#27771#2" expanded="true" />
-            <element signature="e#27823#31088#2" expanded="true" />
+            <element signature="e#24703#27828#2" expanded="true" />
+            <element signature="e#27880#31145#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -976,8 +968,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24646#27771#2" expanded="true" />
-            <element signature="e#27823#31088#2" expanded="true" />
+            <element signature="e#24703#27828#2" expanded="true" />
+            <element signature="e#27880#31145#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1094,8 +1086,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24646#27771#2" expanded="true" />
-            <element signature="e#27823#31088#2" expanded="true" />
+            <element signature="e#24703#27828#2" expanded="true" />
+            <element signature="e#27880#31145#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1483,17 +1475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1310" column="6" selection-start-line="1310" selection-start-column="0" selection-end-line="1426" selection-end-column="18" />
-          <folding>
-            <element signature="e#24646#27771#2" expanded="true" />
-            <element signature="e#27823#31088#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1571,8 +1552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/seoAudit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="1058" column="0" selection-start-line="1058" selection-start-column="0" selection-end-line="1058" selection-end-column="0" />
+        <state relative-caret-position="98">
+          <caret line="1036" column="25" selection-start-line="1036" selection-start-column="25" selection-end-line="1036" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1632,6 +1613,17 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1530249733998" expanded="true" signature="1349:1432" ph="..." />
             <marker date="1530249733998" expanded="true" signature="1361:1420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1277" column="12" selection-start-line="1277" selection-start-column="12" selection-end-line="1277" selection-end-column="12" />
+          <folding>
+            <element signature="e#24703#27828#2" expanded="true" />
+            <element signature="e#27880#31145#2" expanded="true" />
           </folding>
         </state>
       </provider>
